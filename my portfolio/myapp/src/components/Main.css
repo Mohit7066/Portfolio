@@ -1,0 +1,88 @@
+.nav1{
+  margin-left: -10%;
+  color:#ffffff !important;
+  text-decoration: none;
+}
+
+/* ----------Aboutme -----------*/
+.about{ 
+  background-color: #04293A;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+ 
+/* ------------Aboutme------------- */
+.navbarr{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Default styles for the navbar */
+.fixed-top {
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition effect */
+}
+
+/* Styles for the navbar when scrolling */
+.scroll {
+  background-color: #04293A; /* Dark background */
+  color: white; /* White font color */
+}
+
+/* Styles for the navbar when not scrolling */
+.notscroll {
+  background-color: transparent; /* Transparent background */
+  color: #04293A; /* Dark font color */
+}
+
+/* Styles for the navigation links when scrolling (white font color) */
+.white-font .nav-link {
+  color: white; /* White font color */
+}
+
+/* Styles for the navigation links when not scrolling (dark font color) */
+.dark-font .nav-link {
+  color: #ffffff; /* Dark font color */
+}
+
+/* Additional styles for your Navbar.Brand or other elements */
+.nav1 {
+  font-weight: bold;
+}
+
+
+
+.containerStyle {
+    /* position: absolute; */
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    color: white;
+    overflow: hidden;
+    background-image: url("./image/B&W/Main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    filter: brightness(0.6);
+    top: 0;
+    left: 0;
+  }
+
+
+ 
+  
+  .textStyle {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+     z-index: 1; /*Place the text above the overlay */
+  }
+  
