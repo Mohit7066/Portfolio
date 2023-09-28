@@ -7,7 +7,7 @@ const Contact = () => {
       <Navbar></Navbar>
 
       <h1>
-        Contactpage
+        Contactpage form
       </h1>
     </div>
   )
